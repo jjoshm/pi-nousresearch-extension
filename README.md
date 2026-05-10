@@ -17,8 +17,7 @@ A clean, API-first custom provider extension for [pi](https://github.com/earendi
 Copy the extension into pi’s global extension directory:
 
 ```bash
-mkdir -p ~/.pi/agent/extensions
-cp src/nousresearch.ts ~/.pi/agent/extensions/nousresearch.ts
+pi install git:https://github.com/jjoshm/pi-nousresearch-extension
 ```
 
 Then reload pi:
