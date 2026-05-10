@@ -1,0 +1,28 @@
+{
+  "name": "pi-nousresearch-extension",
+  "version": "0.1.0",
+  "description": "Nous Research provider extension for pi",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "pi",
+    "pi-extension",
+    "nousresearch",
+    "oauth"
+  ],
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md",
+    "CONTRIBUTING.md"
+  ],
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "scripts": {
+    "check": "echo 'No local build configured. Use pi /reload smoke tests.'"
+  }
+}
