@@ -26,12 +26,6 @@ Then reload pi:
 /reload
 ```
 
-### Option B: install as a pi package
-
-This repo includes a `pi.extensions` entry in `package.json` pointing to `./src/index.ts`, so it is package-ready.
-
-If publishing to npm/git for `pi install`, keep `src/index.ts` as the package entrypoint.
-
 ## Usage
 
 1. Select or login:
