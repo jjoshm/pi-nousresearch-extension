@@ -12,8 +12,6 @@ A clean, API-first custom provider extension for [pi](https://github.com/earendi
 
 ## Install
 
-### Option A: local extension file
-
 Copy the extension into pi’s global extension directory:
 
 ```bash
